@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= title%></title>
+    <%-include('partials/stylehead.ejs')%>
+  </head>
+  <body>
+
+    <%-include('partials/navigation.ejs')%>
+    <%-include('partials/stylebody.ejs')%>
+
+  <div class="container-fluid">
+    <header class="row">
+      <div class="col-lg-12 text-center">
+        <img class="tamaño" src="/img/manuelg.jpg" alt="Manuel">
+      </div>
+    </header>
+  </div>
+  <div class="container-fluid" id="about">
+    <div class="row bg-dark text-white p-5 text-center">
+      <div class="col-sm-6">
+        <i class="fab fa-js-square fa-10x"></i>
+      </div>
+      <div class="col-sm-6">
+        <h3> Learn Javascript Every Day</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et laboriosam non error animi, distinctio aut nemo placeat eos, deserunt sit rerum, accusamus enim accusantium dolorem a eligendi. Nobis, blanditiis pariatur.</p>
+      </div>
+    </div>
+  </div>
+  </body>
+
+  <%-include ('partials/footer.ejs')%>
+</html>
